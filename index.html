@@ -1,0 +1,69 @@
+<!DOCTYPE html><lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    </body>
+
+    <center><h3>API/URL Monitor</h3></center>
+
+    <div id="a" style="background-color: #DCDCDC; text-align: center; padding: 5px 5px 20px 5px;">
+    <h5>{{ list_a[0][2] }}</h5>
+     <table style="background-color: #00ff99; font-size: 15px; margin: 0px auto;">
+         {% for a in list_a %}
+         <tr>
+             <td>{{ a[1] }}</td>
+             <td>{{ a[4] }}</td>
+             <td>{{ a[5] }}</td>
+         </tr>
+         {% endfor %}
+     </table>
+    </div>
+</br>
+
+
+    <div id="b" style="background-color: #DCDCDC; text-align: center; padding: 5px 5px 20px 5px;">
+    <h5>{{ list_b[0][2] }}</h5>
+     <table style="background-color: #00ff99; font-size: 15px; margin: 0px auto;">
+         {% for b in list_b %}
+         <tr>
+             <td>{{ b[1] }}</td>
+             <td>{{ b[4] }}</td>
+             <td>{{ b[5] }}</td>
+         </tr>
+         {% endfor %}
+     </table>
+        </div>
+</br>
+
+
+     <div id="c" style="background-color: #DCDCDC; text-align: center; padding: 5px 5px 20px 5px;">
+     <h5>{{ list_c[0][2] }}</h5>
+     <table style="background-color: #00ff99; font-size: 15px; margin: 0px auto;">
+         {% for c in list_c %}
+         <tr>
+             <td>{{ c[1] }}</td>
+             <td>{{ c[4] }}</td>
+             <td>{{ c[5] }}</td>
+         </tr>
+         {% endfor %}
+     </table>
+         </div>
+</br>
+
+
+    <div id="d" style="background-color: #DCDCDC; text-align: center; padding: 5px 5px 20px 5px;">
+       <h5>{{ list_d[0][2] }}</h5>
+     <table style="background-color: #00ff99; font-size: 15px; margin: 0px auto;">
+         {% for d in list_d %}
+         <tr>
+             <td>{{ d[1] }}</td>
+             <td>{{ d[4] }}</td>
+             <td>{{ d[5] }}</td>
+         </tr>
+         {% endfor %}
+     </table>
+        </div>
+
+    </body>
+ </html>
